@@ -1,4 +1,4 @@
-const Greeting = () => {
+const Greeting = ({username}) => {
     return <h1>С подключением, {username}</h1>
 }
 
